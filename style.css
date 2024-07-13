@@ -64,6 +64,11 @@
     cursor: pointer;
 }
 
+
+
+
+
+
 /* Card Section Desing */
 
 #card-box{
@@ -76,6 +81,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+
 }
 
 #card-box .subtitle{
@@ -172,27 +178,38 @@
 
 }
 
+
+
+
+
+/* About Section Design */
+
+
+
+
 .about-container{
     width: 1344;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(253, 247, 239);
+    border: 1px solid aliceblue;
 }
 .about-cotent{
     width: 581px;
 
 }
 
-.about-right{
+.about-left{
     width: 672px;
 
 }
 
-.about-right img{
+.about-left img{
     width: 100%;
 }
 
-.about-left{
+.about-right{
     width: 672px;
     display: flex;
     flex-direction: column;
@@ -201,7 +218,7 @@
 
 }
 
-.about-left .about-title{
+.about-right .about-title{
 
     color: rgb(16, 16, 16);
     font-family: Work Sans;
@@ -214,7 +231,7 @@
 
 
 
-.about-left .about-subtitle{
+.about-right .about-subtitle{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 16.8px;
@@ -227,7 +244,7 @@
 
 }
 
-.about-left .follow-btn{
+.about-right .follow-btn{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 22.4px;
@@ -237,11 +254,80 @@
     text-align: center;
 }
 
+
 .social{
     display: flex;
     justify-content: center;
     align-items: center;
-
     gap: 25px;
     margin: 35px 0;
 }
+
+
+
+/* Social Section Design */
+
+
+
+.social-bg{
+    width: 1352px;
+    height: 400px;
+    background-color: rgba(248, 250, 252, 0.76);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-container{
+    background-image: url(assets/social-bg.png);
+    width: 1352px;
+    height: 400px;
+    margin-top: 25px;
+}
+
+.social-box{
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-box .social-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 44.8px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.social-box .social-subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16.8px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.social-box .follow-btn{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 22.4px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    margin: 25px 0;
+}
+
